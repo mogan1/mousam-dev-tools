@@ -105,6 +105,19 @@ export default function Home() {
               </p>
             </Link>
 
+            <Link
+              href="/difference-checker"
+              className="rounded-2xl bg-white p-6 shadow-sm hover:shadow-md transition"
+            >
+              <h3 className="text-lg font-semibold">
+                Diff Checker
+              </h3>
+
+              <p className="mt-2 text-sm text-slate-500">
+                Compare text, code, logs, or configs side by side.
+              </p>
+            </Link>
+
           </div>
         </div>
 
