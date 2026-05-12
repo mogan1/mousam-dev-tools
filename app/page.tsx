@@ -68,7 +68,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/schema-to-json"
+              href="/json-schema-to-sample"
               className="rounded-2xl bg-white p-6 shadow-sm hover:shadow-md transition"
             >
               <h3 className="text-lg font-semibold">
