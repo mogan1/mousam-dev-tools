@@ -28,6 +28,19 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link
+            href="/json-schema-to-sample"
+            className="rounded-3xl bg-white p-6 shadow transition hover:shadow-xl"
+          >
+            <h2 className="text-2xl font-semibold">
+              Schema → JSON
+            </h2>
+
+            <p className="mt-2 text-slate-500">
+              Generate sample JSON from JSON schema.
+            </p>
+          </Link>
+
         </div>
       </div>
     </main>
