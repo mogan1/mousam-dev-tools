@@ -42,7 +42,7 @@ export default function Base64Tool() {
   };
 
   return (
-    <main className="min-h-screen bg-[#f6f7fb] text-slate-900 p-8">
+    <main className="min-h-screen bg-[#FFF8E8] text-slate-900 p-8">
 
       <div className="mx-auto max-w-5xl">
 
@@ -53,7 +53,7 @@ export default function Base64Tool() {
           ← Back to tools
         </Link>
 
-        <h1 className="mt-6 text-4xl font-semibold">
+        <h1 className="mt-6 text-4xl font-semibold text-[#5A3B2A]">
           Base64 Encoder / Decoder
         </h1>
 
@@ -64,7 +64,7 @@ export default function Base64Tool() {
         <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm">
 
           {/* Input */}
-          <label className="font-medium">
+          <label className="font-semibold text-[#5A3B2A]">
             Input
           </label>
 
@@ -82,7 +82,7 @@ export default function Base64Tool() {
 
             <button
               onClick={encode}
-              className="rounded-xl bg-black px-5 py-2 text-white"
+              className="rounded-xl bg-[#5A3B2A] px-5 py-3 text-white hover:bg-[#CC7A00]"
             >
               Encode
             </button>
@@ -112,7 +112,7 @@ export default function Base64Tool() {
 
           {/* Output */}
           <div className="mt-8">
-            <label className="font-medium">
+            <label className="font-semibold text-[#5A3B2A]">
               Output
             </label>
 

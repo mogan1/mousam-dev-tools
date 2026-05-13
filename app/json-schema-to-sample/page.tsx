@@ -139,7 +139,7 @@ export default function SchemaToJsonPage() {
     };
 
     return (
-        <main className="min-h-screen bg-slate-100 p-8">
+        <main className="min-h-screen bg-[#FFF8E8] p-8">
             <div className="mx-auto max-w-6xl">
 
                 <Link
@@ -149,8 +149,8 @@ export default function SchemaToJsonPage() {
                     ← Back to tools
                 </Link>
 
-                <h1 className="mb-2 text-4xl font-bold">
-                    JSON Schema to JSON
+                <h1 className="mb-2 text-4xl font-bold text-[#5A3B2A]">
+                    Sample from JSON Schema
                 </h1>
 
                 <p className="mb-8 text-slate-600">
@@ -163,7 +163,7 @@ export default function SchemaToJsonPage() {
                     <div className="grid gap-6 lg:grid-cols-2">
 
                         <div>
-                            <label className="font-semibold">
+                            <label className="font-semibold text-[#5A3B2A]">
                                 JSON Schema
                             </label>
 
@@ -180,7 +180,7 @@ export default function SchemaToJsonPage() {
                         </div>
 
                         <div>
-                            <label className="font-semibold">
+                            <label className="font-semibold text-[#5A3B2A]">
                                 Generated JSON
                             </label>
 
@@ -193,7 +193,7 @@ export default function SchemaToJsonPage() {
                     </div>
 
                     <div className="mt-4 flex items-center gap-3">
-                        <label className="font-medium">
+                        <label className="font-semibold text-[#5A3B2A]">
                             Records:
                         </label>
 
@@ -215,7 +215,7 @@ export default function SchemaToJsonPage() {
                             onClick={
                                 generateSampleJson
                             }
-                            className="rounded-xl bg-black px-5 py-3 text-white"
+                            className="rounded-xl bg-[#5A3B2A] px-5 py-3 text-white hover:bg-[#CC7A00]"
                         >
                             Generate JSON
                         </button>

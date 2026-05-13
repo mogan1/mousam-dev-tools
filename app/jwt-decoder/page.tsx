@@ -60,7 +60,7 @@ export default function JwtDecoder() {
     };
 
     return (
-        <main className="min-h-screen bg-[#f6f7fb] p-8">
+        <main className="min-h-screen bg-[#FFF8E8] p-8">
 
             <div className="mx-auto max-w-5xl">
 
@@ -71,7 +71,7 @@ export default function JwtDecoder() {
                     ← Back to tools
                 </Link>
 
-                <h1 className="mt-6 text-4xl font-semibold">
+                <h1 className="mt-6 text-4xl font-semibold text-[#5A3B2A]">
                     JWT Decoder
                 </h1>
 
@@ -82,7 +82,7 @@ export default function JwtDecoder() {
                 {/* Input */}
                 <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm">
 
-                    <label className="font-medium">
+                    <label className="font-semibold text-[#5A3B2A]">
                         JWT Token
                     </label>
 
@@ -98,7 +98,8 @@ export default function JwtDecoder() {
                     <div className="mt-4 flex gap-3">
                         <button
                             onClick={decodeJWT}
-                            className="rounded-xl bg-black px-5 py-2 text-white"
+                            // className="rounded-xl bg-black px-5 py-2 text-white"
+                            className="rounded-xl bg-[#5A3B2A] px-5 py-3 text-white hover:bg-[#CC7A00]"
                         >
                             Decode Token
                         </button>

@@ -58,7 +58,7 @@ export default function DiffPage() {
     };
 
     return (
-        <main className="min-h-screen bg-[#f6f7fb] p-8">
+        <main className="min-h-screen bg-[#FFF8E8] p-8">
 
             <div className="mx-auto max-w-6xl">
 
@@ -69,13 +69,15 @@ export default function DiffPage() {
                     ← Back to tools
                 </Link>
 
-                <h1 className="mt-6 text-4xl font-semibold">
+                <h1 className="mt-6 text-4xl font-semibold text-[#5A3B2A]">
                     Diff Checker
                 </h1>
 
                 <p className="mt-3 text-slate-600">
                     Compare text, code, logs, or configs side by side.
                 </p>
+
+                <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm">
 
                 {/* Inputs */}
                 <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -103,7 +105,7 @@ export default function DiffPage() {
                 <div className="mt-4 flex gap-3">
                     <button
                         onClick={compare}
-                        className="rounded-xl bg-black px-5 py-2 text-white"
+                        className="rounded-xl bg-[#5A3B2A] px-5 py-2 text-white hover:bg-[#CC7A00]"
                     >
                         Compare
                     </button>
@@ -129,7 +131,7 @@ export default function DiffPage() {
                                         ? "bg-green-50 border-green-200"
                                         : line.type === "removed"
                                             ? "bg-red-50 border-red-200"
-                                            : "bg-yellow-50 border-yellow-200"
+                                            : "bg-pink-50 border-pink-200"
                                     }`}
                             >
                                 <div className="grid grid-cols-2 gap-4">
@@ -148,6 +150,8 @@ export default function DiffPage() {
 
                     </div>
                 )}
+
+                </div>
 
             </div>
         </main>
