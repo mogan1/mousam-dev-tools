@@ -58,7 +58,7 @@ export default function JsonFormatterPage() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-100 p-8">
+    <main className="min-h-screen bg-[#FFF8E8] p-8">
       <div className="mx-auto max-w-6xl">
 
         <Link
@@ -68,7 +68,7 @@ export default function JsonFormatterPage() {
           ← Back to tools
         </Link>
 
-        <h1 className="mb-2 text-4xl font-bold">
+        <h1 className="mb-2 text-4xl font-bold text-[#5A3B2A]">
           JSON Formatter
         </h1>
 
@@ -81,7 +81,7 @@ export default function JsonFormatterPage() {
           <div className="grid gap-6 lg:grid-cols-2">
 
             <div>
-              <label className="font-semibold">
+              <label className="font-semibold text-[#5A3B2A]">
                 Input JSON
               </label>
 
@@ -96,7 +96,7 @@ export default function JsonFormatterPage() {
             </div>
 
             <div>
-              <label className="font-semibold">
+              <label className="font-semibold text-[#5A3B2A]">
                 Formatted Output
               </label>
 
@@ -112,7 +112,8 @@ export default function JsonFormatterPage() {
 
             <button
               onClick={formatJson}
-              className="rounded-xl bg-black px-5 py-3 text-white hover:opacity-90"
+            //   className="rounded-xl bg-black px-5 py-3 text-white hover:opacity-90"
+              className="rounded-xl bg-[#5A3B2A] px-5 py-2 text-white hover:bg-[#CC7A00]"
             >
               Prettify JSON
             </button>
